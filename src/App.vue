@@ -2,6 +2,7 @@
   <div id="app">
     <app-header></app-header>
     <app-navigation></app-navigation>
+    <h1>{{ $t('heading') }}</h1>
     <router-view></router-view>
   </div>
 </template>
@@ -21,10 +22,12 @@ export default {
 
 <style lang="scss">
 
+//TODO: place in own scss file
 body {
   margin: 0px;
   padding: 0px;
 }
+
 #app {
   font-family: Verdana, Geneva, sans-serif;
   li {
@@ -34,4 +37,5 @@ body {
     text-decoration: none;
   }
 }
+
 </style>

@@ -5,10 +5,10 @@
 </template>
 
 <script>
-  export default {
-    name: 'gallery',
-    data () {
-      return {
+export default {
+  name: 'gallery',
+  data () {
+    return {
       msg: 'Future Json data we be translating here for gallery'
     }
   }

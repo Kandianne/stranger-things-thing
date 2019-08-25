@@ -6,10 +6,10 @@
 </template>
 
 <script>
-  export default {
-    name: 'inspiration',
-    data () {
-      return {
+export default {
+  name: 'inspiration',
+  data () {
+    return {
       msg: 'Future Json data we be translating'
     }
   }
