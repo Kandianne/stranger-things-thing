@@ -7,11 +7,11 @@ Vue.use(VueI18n);
 
 const messages = {
     'en': enUsJson,
-    'es': laPgJson
+    'la': laPgJson
 };
 
 export default new VueI18n({
     locale: 'en', // default
-    fallbackLocale: 'es',
+    fallbackLocale: 'la',
     messages,
 });

@@ -16,9 +16,20 @@
 
 <style lang="scss">
 .nav {
-    ul {
+    padding: auto 30px;
+    ul {    
         display: flex;
         justify-content: flex-end;
+        li {
+            padding: 0px 15px;
+            text-transform: uppercase;
+            font-size: .75em;
+            a {
+                &:hover {
+                    color: white;
+                }
+            }
+        }
     }
 }
 </style>

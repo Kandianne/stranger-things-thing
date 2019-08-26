@@ -2,8 +2,9 @@
   <div id="app">
     <app-header></app-header>
     <app-navigation></app-navigation>
-    <h1>{{ $t('heading') }}</h1>
-    <router-view></router-view>
+    <div class="main">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -22,20 +23,6 @@ export default {
 
 <style lang="scss">
 
-//TODO: place in own scss file
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
-#app {
-  font-family: Verdana, Geneva, sans-serif;
-  li {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-  }
-}
+@import "./src/sass/base"
 
 </style>
